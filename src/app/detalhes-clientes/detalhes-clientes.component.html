@@ -1,1 +1,5 @@
-<p>detalhes-clientes works!</p>
+<ul *ngFor="let c of clientes">
+    <li><b>Nome Completo:</b> {{ c.nomeCompleto }}</li>
+    <li><b>Idade:</b> {{ c.idade}}</li>
+    <li><b>Profissao:</b> {{ c.profissao }}</li>
+</ul>
