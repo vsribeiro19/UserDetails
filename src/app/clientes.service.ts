@@ -1,10 +1,13 @@
 import { CLIENTES } from './clientes.mock';
 import { Injectable } from '@angular/core';
+import { Cliente } from './interfaces/cliente.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ClientesService {
 
-  constructor() {}
+getClientes():Cliente[]{
+  return CLIENTES;
+}
 }

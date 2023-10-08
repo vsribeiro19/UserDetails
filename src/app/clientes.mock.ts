@@ -1,31 +1,31 @@
-import { Cliente } from "./interfaces/cliente.interface";
+import { Cliente } from "./interfaces/cliente.model";
 
 export const CLIENTES: Cliente[] = [
     {
         id: 1,
         nome: 'Victor',
-        nomeCompleto: 'Ribeiro',
+        nomeCompleto: 'Victor Ribeiro',
         idade: 27,
         profissao: 'Desenvolvedor'
     },
     {
         id: 2,
         nome: 'Rodrigo',
-        nomeCompleto: 'da Silva Andrade',
+        nomeCompleto: 'Rodrigo da Silva Andrade',
         idade: 33,
         profissao: 'Eletricista'
     },
     {
         id: 3,
         nome: 'Ana Beatriz',
-        nomeCompleto: 'Oliveira',
+        nomeCompleto: 'Ana Beatriz Oliveira',
         idade: 22,
         profissao: 'Estágio em Psicologia'
     },
     {
-        id: 1,
+        id: 4,
         nome: 'Daniel',
-        nomeCompleto: 'Oliveira',
+        nomeCompleto: 'Daniel Oliveira',
         idade: 38,
         profissao: 'Fisioterapeuta'
     }

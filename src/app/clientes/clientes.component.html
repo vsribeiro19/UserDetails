@@ -1,1 +1,16 @@
-
+<div *ngFor="let c of clientes">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+        </mat-panel-title>
+        <mat-panel-description>
+          {{ c.id }} - {{ c.nome }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <b>Nome Completo:</b> {{ c.nomeCompleto }}
+      <b>Idade:</b> {{ c.idade}}
+      <b>Profissao:</b> {{ c.profissao }}
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
