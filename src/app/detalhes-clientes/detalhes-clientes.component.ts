@@ -8,7 +8,7 @@ import { CLIENTES } from '../clientes.mock';
   styleUrls: ['./detalhes-clientes.component.css']
 })
 export class DetalhesClientesComponent {
-@Input() cliente?: Cliente;
+@Input() cliente: Cliente | undefined;
 
 clientes = CLIENTES;
 

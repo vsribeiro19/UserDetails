@@ -8,7 +8,7 @@
           {{ c.id }} - {{ c.nome }}
         </mat-panel-description>
       </mat-expansion-panel-header>
-      <app-detalhes-clientes></app-detalhes-clientes>
+      <app-detalhes-clientes [cliente]="c"></app-detalhes-clientes>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
